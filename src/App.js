@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import {HelloWorld} from "react-sample-library"
+import {GoodbyePlanet} from "react-sample-library";
 
 function App() {
   return (
@@ -15,7 +17,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <HelloWorld text="Indeed"/>
+          <GoodbyePlanet></GoodbyePlanet>
         </a>
       </header>
     </div>
